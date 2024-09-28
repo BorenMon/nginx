@@ -27,4 +27,4 @@ services:
     volumes:
       - ./data/certbot/conf:/etc/letsencrypt
       - ./data/certbot/www:/var/www/certbot
-    entrypoint: "certbot certonly --webroot --webroot-path=/var/www/certbot --email borenmon5@gmail.com --agree-tos --no-eff-email -d boren-do-v1.online -d www.boren-do-v1.online"
+    entrypoint: "certbot certonly --webroot --webroot-path=/var/www/certbot --email borenmon5@gmail.com --agree-tos --no-eff-email -d boren-do-v1.online"
